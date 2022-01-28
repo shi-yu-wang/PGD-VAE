@@ -1,6 +1,7 @@
 # PGD-VAE
 The source code of PGD-VAE
-The code for PGD-VAE is adapted from the code of GRAN: https://github.com/lrjconan/GRAN (Liao, R., Li, Y., Song, Y., Wang, S., Nash, C., Hamilton, W. L., ... & Zemel, R. S. (2019). Efficient graph generation with graph recurrent attention networks. arXiv preprint arXiv:1910.00760.)
+The code for PGD-VAE is adapted from the code of GRAN: https://github.com/lrjconan/GRAN 
+(Liao, R., Li, Y., Song, Y., Wang, S., Nash, C., Hamilton, W. L., ... & Zemel, R. S. (2019). Efficient graph generation with graph recurrent attention networks. arXiv preprint arXiv:1910.00760.)
 
 Running environment:
 Python 3.9; PyTorch 1.8.1, networkx, 2.5
