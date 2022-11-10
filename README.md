@@ -1,5 +1,13 @@
-# PGD-VAE
-The source code of PGD-VAE
+# This is the official Pytorch implementation of [Deep Generative Model for Periodic Graphs](https://arxiv.org/pdf/2201.11932.pdf) accepted by NeurIPS 2022:
+
+```
+@article{wang2022deep,
+  title={Deep Generative Model for Periodic Graphs},
+  author={Wang, Shiyu and Guo, Xiaojie and Zhao, Liang},
+  journal={arXiv preprint arXiv:2201.11932},
+  year={2022}
+}
+```
 
 The code for PGD-VAE is adapted from the code of GRAN: https://github.com/lrjconan/GRAN 
 (Liao, R., Li, Y., Song, Y., Wang, S., Nash, C., Hamilton, W. L., ... & Zemel, R. S. (2019). Efficient graph generation with graph recurrent attention networks. arXiv preprint arXiv:1910.00760.)
