@@ -9,6 +9,8 @@
 ```
 The code for PGD-VAE is adapted from the code of GRAN: [Efficient graph generation with graph recurrent attention networks](https://github.com/lrjconan/GRAN).
 
+![model](https://github.com/shi-yu-wang/PGD-VAE/tree/main/image/model-1.png)
+
 ## Running environment:
 Python 3.9; PyTorch 1.8.1, networkx 2.5, scipy, numpy, pyyaml
 
