@@ -23,6 +23,7 @@ Python 3.9; PyTorch 1.8.1, networkx 2.5, scipy, numpy, pyyaml
 
 - Original QMOF data can be downloaded from [here](https://github.com/arosen93/QMOF).
 - Original MeshSeg data can be downloaded from [here](https://segeval.cs.princeton.edu/).
+- Synthetic data us synthesized manually by the paper.
 
 3. The code to extract and generate data from original QMOF and MeshSeg datasets have been provided in the package as:
 
@@ -30,8 +31,13 @@ Python 3.9; PyTorch 1.8.1, networkx 2.5, scipy, numpy, pyyaml
 - MeshSeg: MeshSegDataGen.py
 
 ## Training the model
-To train the model, run:
+
+### To train the model:
+
 ```python train.py```
+
+### Note
+
 or:
 directly run code in train.py
 This will train the model with the synthetic data and returns the trained model as model_syn.pt.
