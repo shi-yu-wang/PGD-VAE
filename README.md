@@ -21,8 +21,11 @@ Data: QMOF, MeshSeg and synthetic datasets have been processed and provided in t
 
 - Synthetic: SynGraphs.p, SynUnitCells.p
 
-Original QMOF data can be downloaded from: https://github.com/arosen93/QMOF
-Original MeshSeg data can be downloaded from: https://segeval.cs.princeton.edu/
+To download the original datasets:
+
+- Original QMOF data can be downloaded from [here](https://github.com/arosen93/QMOF)
+- 
+- Original MeshSeg data can be downloaded from [here](https://segeval.cs.princeton.edu/)
 
 The code to extract and generate data from original QMOF and MeshSeg datasets have been provided in the package as:
 QMOF: MOFDataGen.py
