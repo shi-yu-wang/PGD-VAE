@@ -30,20 +30,31 @@ Python 3.9; PyTorch 1.8.1, networkx 2.5, scipy, numpy, pyyaml
 - QMOF: MOFDataGen.py
 - MeshSeg: MeshSegDataGen.py
 
+## Arguments of code：
+1. data = {synthetic, mesh, qmof}
+2. lr: learning rate
+3. epoch: epochs
+4. train = {True, False}
+5. eval = {True, False}
+
 ## Training the model
 
-### To train the model:
+### To train the model using synthetic data and 100 epochs with learning rate of 0.001:
 
-```python train.py```
+```python train.py --data synthetic --train True --epoch 100 --lr 0.001```
 
-### Note
+### Note：
+1. The trained model will be saved as "{data}_train.pt" in the working directory.
+2. The default dataset to be trained is the synthetic dataset. To train the model on another datasets please specify the dataset after ```--data``` argument.
+3. To train the model with different penalties on KL divergence terms, please manually modify the code in ```model.py``` , line 293.
 
-or:
-directly run code in train.py
-This will train the model with the synthetic data and returns the trained model as model_syn.pt.
-To train the model on QMOF or MeshSeg datasets, modify the input file in train.py and train the model in the same way
+## Evaluating the model
 
-For evaluation purpose, please use functions in evaluation.py:
-compute_kld(): degree, cluster, orbit
-check_uniqueness(): uniqueness
-novelty_metric(): novelty
+### To evaluate trained model:
+```python train.py --data synthetic --train False --eval True```
+
+### Note:
+1. Functions for evaluation purpose are wrapped up in evaluation.py:
+- compute_kld(): degree, cluster, orbit
+- check_uniqueness(): uniqueness
+- novelty_metric(): novelty
