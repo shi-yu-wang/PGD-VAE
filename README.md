@@ -29,8 +29,9 @@ Python 3.9; PyTorch 1.8.1, networkx 2.5, scipy, numpy, pyyaml
 - QMOF: MOFDataGen.py
 - MeshSeg: MeshSegDataGen.py
 
+## Training the model
 To train the model, run:
-python train.py
+'''python train.py'''
 or:
 directly run code in train.py
 This will train the model with the synthetic data and returns the trained model as model_syn.pt.
