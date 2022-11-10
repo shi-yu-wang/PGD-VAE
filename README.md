@@ -16,16 +16,13 @@ Python 3.9; PyTorch 1.8.1, networkx 2.5, scipy, numpy, pyyaml
 Data: QMOF, MeshSeg and synthetic datasets have been processed and provided in the repository as: 
 
 - QMOF: MOFGraphs.p, MOFUnitCells.p
-
 - MeshSeg: MeshSeqGraphs.p, MeshSegUnitCells.p
-
 - Synthetic: SynGraphs.p, SynUnitCells.p
 
 To download the original datasets:
 
-- Original QMOF data can be downloaded from [here](https://github.com/arosen93/QMOF)
-- 
-- Original MeshSeg data can be downloaded from [here](https://segeval.cs.princeton.edu/)
+- Original QMOF data can be downloaded from [here](https://github.com/arosen93/QMOF).
+- Original MeshSeg data can be downloaded from [here](https://segeval.cs.princeton.edu/).
 
 The code to extract and generate data from original QMOF and MeshSeg datasets have been provided in the package as:
 QMOF: MOFDataGen.py
