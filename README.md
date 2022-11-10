@@ -1,5 +1,4 @@
 # This is the official Pytorch implementation of [Deep Generative Model for Periodic Graphs](https://arxiv.org/pdf/2201.11932.pdf) accepted by NeurIPS 2022:
-
 ```
 @article{wang2022deep,
   title={Deep Generative Model for Periodic Graphs},
@@ -8,17 +7,19 @@
   year={2022}
 }
 ```
+The code for PGD-VAE is adapted from the code of GRAN: [Efficient graph generation with graph recurrent attention networks](https://github.com/lrjconan/GRAN).
 
-The code for PGD-VAE is adapted from the code of GRAN: https://github.com/lrjconan/GRAN 
-(Liao, R., Li, Y., Song, Y., Wang, S., Nash, C., Hamilton, W. L., ... & Zemel, R. S. (2019). Efficient graph generation with graph recurrent attention networks. arXiv preprint arXiv:1910.00760.)
+## Running environment:
+Python 3.9; PyTorch 1.8.1, networkx 2.5, scipy, numpy, pyyaml
 
-Running environment:
-Python 3.9; PyTorch 1.8.1, networkx, 2.5
+## Datasets
+Data: QMOF, MeshSeg and synthetic datasets have been processed and provided in the repository as: 
 
-Data: QMOF, MeshSeg and synthetic datasets have been processed and provided in the package as: 
-QMOF: MOFGraphs.p, MOFUnitCells.p
-MeshSeg: MeshSeqGraphs.p, MeshSegUnitCells.p
-Synthetic: SynGraphs.p, SynUnitCells.p
+- QMOF: MOFGraphs.p, MOFUnitCells.p
+
+- MeshSeg: MeshSeqGraphs.p, MeshSegUnitCells.p
+
+- Synthetic: SynGraphs.p, SynUnitCells.p
 
 Original QMOF data can be downloaded from: https://github.com/arosen93/QMOF
 Original MeshSeg data can be downloaded from: https://segeval.cs.princeton.edu/
